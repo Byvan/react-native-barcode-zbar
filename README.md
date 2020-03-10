@@ -53,8 +53,6 @@ NSCameraUsageDescription
 // 94   MAXI_CODE       https://en.wikipedia.org/wiki/MaxiCode
 // 64   QR_CODE         https://en.wikipedia.org/wiki/QR_code
 
-import * as RNLBarCode from "@yyyyu/react-native-barcode";
-
 // RNLBarCode.Type.[Common|ZXing|ZBar|Vision|AVFoundation].[BarCodeType]
 RNLBarCode.Type.Common.QR_CODE
 
