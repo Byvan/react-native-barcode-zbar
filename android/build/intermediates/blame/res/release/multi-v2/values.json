@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/mobilefront/Desktop/BrisklyApp/b-pay/node_modules/@yyyyu/react-native-barcode/android/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/mobilefront/.gradle/caches/transforms-2/files-2.1/d64afd301b70fbdd9510f7bd911c5134/cameraview-2.0.0-beta04/res/values/values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "126",
+                        "endColumns": "24",
+                        "endOffsets": "4966"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/mobilefront/Desktop/BrisklyApp/b-pay/node_modules/@yyyyu/react-native-barcode/android/build/intermediates/res/merged/release/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/mobilefront/.gradle/caches/transforms-2/files-2.1/d64afd301b70fbdd9510f7bd911c5134/cameraview-2.0.0-beta04/res/values/values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "126",
+                        "endColumns": "24",
+                        "endOffsets": "4966"
+                    }
+                }
+            ]
+        }
+    ]
+}

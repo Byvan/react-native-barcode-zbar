@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/mobilefront/Desktop/BrisklyApp/b-pay/node_modules/@yyyyu/react-native-barcode/android/build/intermediates/res/merged/release/drawable/focus_marker_outline.xml",
+        "source": "/Users/mobilefront/.gradle/caches/transforms-2/files-2.1/d64afd301b70fbdd9510f7bd911c5134/cameraview-2.0.0-beta04/res/drawable/focus_marker_outline.xml"
+    },
+    {
+        "merged": "/Users/mobilefront/Desktop/BrisklyApp/b-pay/node_modules/@yyyyu/react-native-barcode/android/build/intermediates/res/merged/release/drawable/focus_marker_fill.xml",
+        "source": "/Users/mobilefront/.gradle/caches/transforms-2/files-2.1/d64afd301b70fbdd9510f7bd911c5134/cameraview-2.0.0-beta04/res/drawable/focus_marker_fill.xml"
+    }
+]

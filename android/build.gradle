@@ -1,0 +1,26 @@
+apply plugin: 'com.android.library'
+
+android {
+    defaultConfig {
+        minSdkVersion safeExtGet('minSdkVersion', 16)
+        targetSdkVersion safeExtGet('targetSdkVersion', 28)
+    }
+
+    compileSdkVersion safeExtGet('compileSdkVersion', 28)
+    buildToolsVersion safeExtGet('buildToolsVersion', "28.0.3")
+
+    lintOptions {
+        abortOnError false
+    }
+}
+
+dependencies {
+    compileOnly 'com.facebook.react:react-native:+'
+    api 'com.google.zxing:core:3.3.3'
+    api 'com.otaliastudios:cameraview:2.0.0-beta04'
+    api "androidx.lifecycle:lifecycle-runtime:${safeExtGet('lifecycleVersion', '2.0.0')}"
+}
+
+def safeExtGet(prop, fallback) {
+    rootProject.ext.has(prop) ? rootProject.ext.get(prop) : fallback
+}

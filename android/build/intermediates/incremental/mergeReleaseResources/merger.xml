@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="com.otaliastudios:cameraview:2.0.0-beta04$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/mobilefront/.gradle/caches/transforms-2/files-2.1/d64afd301b70fbdd9510f7bd911c5134/cameraview-2.0.0-beta04/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="com.otaliastudios:cameraview:2.0.0-beta04" from-dependency="true" generated-set="com.otaliastudios:cameraview:2.0.0-beta04$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/mobilefront/.gradle/caches/transforms-2/files-2.1/d64afd301b70fbdd9510f7bd911c5134/cameraview-2.0.0-beta04/res"><file name="focus_marker_outline" path="/Users/mobilefront/.gradle/caches/transforms-2/files-2.1/d64afd301b70fbdd9510f7bd911c5134/cameraview-2.0.0-beta04/res/drawable/focus_marker_outline.xml" qualifiers="" type="drawable"/><file name="focus_marker_fill" path="/Users/mobilefront/.gradle/caches/transforms-2/files-2.1/d64afd301b70fbdd9510f7bd911c5134/cameraview-2.0.0-beta04/res/drawable/focus_marker_fill.xml" qualifiers="" type="drawable"/><file name="cameraview_texture_view" path="/Users/mobilefront/.gradle/caches/transforms-2/files-2.1/d64afd301b70fbdd9510f7bd911c5134/cameraview-2.0.0-beta04/res/layout/cameraview_texture_view.xml" qualifiers="" type="layout"/><file name="cameraview_surface_view" path="/Users/mobilefront/.gradle/caches/transforms-2/files-2.1/d64afd301b70fbdd9510f7bd911c5134/cameraview-2.0.0-beta04/res/layout/cameraview_surface_view.xml" qualifiers="" type="layout"/><file name="cameraview_layout_focus_marker" path="/Users/mobilefront/.gradle/caches/transforms-2/files-2.1/d64afd301b70fbdd9510f7bd911c5134/cameraview-2.0.0-beta04/res/layout/cameraview_layout_focus_marker.xml" qualifiers="" type="layout"/><file name="cameraview_gl_view" path="/Users/mobilefront/.gradle/caches/transforms-2/files-2.1/d64afd301b70fbdd9510f7bd911c5134/cameraview-2.0.0-beta04/res/layout/cameraview_gl_view.xml" qualifiers="" type="layout"/><file path="/Users/mobilefront/.gradle/caches/transforms-2/files-2.1/d64afd301b70fbdd9510f7bd911c5134/cameraview-2.0.0-beta04/res/values/values.xml" qualifiers=""><declare-styleable name="CameraView">
+
+        <attr format="integer|reference" name="cameraPictureSizeMinWidth"/>
+        <attr format="integer|reference" name="cameraPictureSizeMaxWidth"/>
+        <attr format="integer|reference" name="cameraPictureSizeMinHeight"/>
+        <attr format="integer|reference" name="cameraPictureSizeMaxHeight"/>
+        <attr format="integer|reference" name="cameraPictureSizeMinArea"/>
+        <attr format="integer|reference" name="cameraPictureSizeMaxArea"/>
+        <attr format="boolean" name="cameraPictureSizeSmallest"/>
+        <attr format="boolean" name="cameraPictureSizeBiggest"/>
+        <attr format="string|reference" name="cameraPictureSizeAspectRatio"/>
+
+        <attr format="integer|reference" name="cameraVideoSizeMinWidth"/>
+        <attr format="integer|reference" name="cameraVideoSizeMaxWidth"/>
+        <attr format="integer|reference" name="cameraVideoSizeMinHeight"/>
+        <attr format="integer|reference" name="cameraVideoSizeMaxHeight"/>
+        <attr format="integer|reference" name="cameraVideoSizeMinArea"/>
+        <attr format="integer|reference" name="cameraVideoSizeMaxArea"/>
+        <attr format="boolean" name="cameraVideoSizeSmallest"/>
+        <attr format="boolean" name="cameraVideoSizeBiggest"/>
+        <attr format="string|reference" name="cameraVideoSizeAspectRatio"/>
+
+        <attr format="integer|reference" name="cameraVideoBitRate"/>
+        <attr format="integer|reference" name="cameraAudioBitRate"/>
+
+        <attr format="integer|reference" name="cameraSnapshotMaxWidth"/>
+        <attr format="integer|reference" name="cameraSnapshotMaxHeight"/>
+
+        <attr format="enum" name="cameraGestureTap">
+            <enum name="none" value="0"/>
+            <enum name="focus" value="1"/>
+            <enum name="focusWithMarker" value="2"/>
+            <enum name="capture" value="3"/>
+        </attr>
+
+        <attr format="enum" name="cameraGestureLongTap">
+            <enum name="none" value="0"/>
+            <enum name="focus" value="1"/>
+            <enum name="focusWithMarker" value="2"/>
+            <enum name="capture" value="3"/>
+        </attr>
+
+        <attr format="enum" name="cameraGesturePinch">
+            <enum name="none" value="0"/>
+            <enum name="zoom" value="4"/>
+            <enum name="exposureCorrection" value="5"/>
+        </attr>
+
+        <attr format="enum" name="cameraGestureScrollHorizontal">
+            <enum name="none" value="0"/>
+            <enum name="zoom" value="4"/>
+            <enum name="exposureCorrection" value="5"/>
+        </attr>
+
+        <attr format="enum" name="cameraGestureScrollVertical">
+            <enum name="none" value="0"/>
+            <enum name="zoom" value="4"/>
+            <enum name="exposureCorrection" value="5"/>
+        </attr>
+
+        <attr format="enum" name="cameraFacing">
+            <enum name="back" value="0"/>
+            <enum name="front" value="1"/>
+        </attr>
+
+        <attr format="enum" name="cameraHdr">
+            <enum name="off" value="0"/>
+            <enum name="on" value="1"/>
+        </attr>
+
+        <attr format="enum" name="cameraFlash">
+            <enum name="off" value="0"/>
+            <enum name="on" value="1"/>
+            <enum name="auto" value="2"/>
+            <enum name="torch" value="3"/>
+        </attr>
+
+        <attr format="enum" name="cameraWhiteBalance">
+            <enum name="auto" value="0"/>
+            <enum name="incandescent" value="1"/>
+            <enum name="fluorescent" value="2"/>
+            <enum name="daylight" value="3"/>
+            <enum name="cloudy" value="4"/>
+        </attr>
+
+        <attr format="enum" name="cameraGrid">
+            <enum name="off" value="0"/>
+            <enum name="draw3x3" value="1"/>
+            <enum name="draw4x4" value="2"/>
+            <enum name="drawPhi" value="3"/>
+        </attr>
+
+        <attr format="color|reference" name="cameraGridColor"/>
+
+        <attr format="enum" name="cameraMode">
+            <enum name="picture" value="0"/>
+            <enum name="video" value="1"/>
+        </attr>
+
+        <attr format="enum" name="cameraAudio">
+            <enum name="off" value="0"/>
+            <enum name="on" value="1"/>
+        </attr>
+
+        <attr format="enum" name="cameraPreview">
+            <enum name="surface" value="0"/>
+            <enum name="texture" value="1"/>
+            <enum name="glSurface" value="2"/>
+        </attr>
+
+        <attr format="boolean" name="cameraPlaySounds"/>
+
+        <attr format="float" name="cameraVideoMaxSize"/>
+
+        <attr format="integer" name="cameraVideoMaxDuration"/>
+
+        <attr format="enum" name="cameraVideoCodec">
+            <enum name="deviceDefault" value="0"/>
+            <enum name="h263" value="1"/>
+            <enum name="h264" value="2"/>
+        </attr>
+
+        <attr format="boolean" name="cameraExperimental"/>
+
+    </declare-styleable></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/mobilefront/Desktop/BrisklyApp/b-pay/node_modules/@yyyyu/react-native-barcode/android/src/main/res"/><source path="/Users/mobilefront/Desktop/BrisklyApp/b-pay/node_modules/@yyyyu/react-native-barcode/android/build/generated/res/rs/release"/><source path="/Users/mobilefront/Desktop/BrisklyApp/b-pay/node_modules/@yyyyu/react-native-barcode/android/build/generated/res/resValues/release"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/mobilefront/Desktop/BrisklyApp/b-pay/node_modules/@yyyyu/react-native-barcode/android/src/main/res"/><source path="/Users/mobilefront/Desktop/BrisklyApp/b-pay/node_modules/@yyyyu/react-native-barcode/android/build/generated/res/rs/release"/><source path="/Users/mobilefront/Desktop/BrisklyApp/b-pay/node_modules/@yyyyu/react-native-barcode/android/build/generated/res/resValues/release"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="release$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/mobilefront/Desktop/BrisklyApp/b-pay/node_modules/@yyyyu/react-native-barcode/android/src/release/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="release" generated-set="release$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/mobilefront/Desktop/BrisklyApp/b-pay/node_modules/@yyyyu/react-native-barcode/android/src/release/res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="CameraView">
+
+        <attr format="integer|reference" name="cameraPictureSizeMinWidth"/>
+        <attr format="integer|reference" name="cameraPictureSizeMaxWidth"/>
+        <attr format="integer|reference" name="cameraPictureSizeMinHeight"/>
+        <attr format="integer|reference" name="cameraPictureSizeMaxHeight"/>
+        <attr format="integer|reference" name="cameraPictureSizeMinArea"/>
+        <attr format="integer|reference" name="cameraPictureSizeMaxArea"/>
+        <attr format="boolean" name="cameraPictureSizeSmallest"/>
+        <attr format="boolean" name="cameraPictureSizeBiggest"/>
+        <attr format="string|reference" name="cameraPictureSizeAspectRatio"/>
+
+        <attr format="integer|reference" name="cameraVideoSizeMinWidth"/>
+        <attr format="integer|reference" name="cameraVideoSizeMaxWidth"/>
+        <attr format="integer|reference" name="cameraVideoSizeMinHeight"/>
+        <attr format="integer|reference" name="cameraVideoSizeMaxHeight"/>
+        <attr format="integer|reference" name="cameraVideoSizeMinArea"/>
+        <attr format="integer|reference" name="cameraVideoSizeMaxArea"/>
+        <attr format="boolean" name="cameraVideoSizeSmallest"/>
+        <attr format="boolean" name="cameraVideoSizeBiggest"/>
+        <attr format="string|reference" name="cameraVideoSizeAspectRatio"/>
+
+        <attr format="integer|reference" name="cameraVideoBitRate"/>
+        <attr format="integer|reference" name="cameraAudioBitRate"/>
+
+        <attr format="integer|reference" name="cameraSnapshotMaxWidth"/>
+        <attr format="integer|reference" name="cameraSnapshotMaxHeight"/>
+
+        <attr format="enum" name="cameraGestureTap">
+            <enum name="none" value="0"/>
+            <enum name="focus" value="1"/>
+            <enum name="focusWithMarker" value="2"/>
+            <enum name="capture" value="3"/>
+        </attr>
+
+        <attr format="enum" name="cameraGestureLongTap">
+            <enum name="none" value="0"/>
+            <enum name="focus" value="1"/>
+            <enum name="focusWithMarker" value="2"/>
+            <enum name="capture" value="3"/>
+        </attr>
+
+        <attr format="enum" name="cameraGesturePinch">
+            <enum name="none" value="0"/>
+            <enum name="zoom" value="4"/>
+            <enum name="exposureCorrection" value="5"/>
+        </attr>
+
+        <attr format="enum" name="cameraGestureScrollHorizontal">
+            <enum name="none" value="0"/>
+            <enum name="zoom" value="4"/>
+            <enum name="exposureCorrection" value="5"/>
+        </attr>
+
+        <attr format="enum" name="cameraGestureScrollVertical">
+            <enum name="none" value="0"/>
+            <enum name="zoom" value="4"/>
+            <enum name="exposureCorrection" value="5"/>
+        </attr>
+
+        <attr format="enum" name="cameraFacing">
+            <enum name="back" value="0"/>
+            <enum name="front" value="1"/>
+        </attr>
+
+        <attr format="enum" name="cameraHdr">
+            <enum name="off" value="0"/>
+            <enum name="on" value="1"/>
+        </attr>
+
+        <attr format="enum" name="cameraFlash">
+            <enum name="off" value="0"/>
+            <enum name="on" value="1"/>
+            <enum name="auto" value="2"/>
+            <enum name="torch" value="3"/>
+        </attr>
+
+        <attr format="enum" name="cameraWhiteBalance">
+            <enum name="auto" value="0"/>
+            <enum name="incandescent" value="1"/>
+            <enum name="fluorescent" value="2"/>
+            <enum name="daylight" value="3"/>
+            <enum name="cloudy" value="4"/>
+        </attr>
+
+        <attr format="enum" name="cameraGrid">
+            <enum name="off" value="0"/>
+            <enum name="draw3x3" value="1"/>
+            <enum name="draw4x4" value="2"/>
+            <enum name="drawPhi" value="3"/>
+        </attr>
+
+        <attr format="color|reference" name="cameraGridColor"/>
+
+        <attr format="enum" name="cameraMode">
+            <enum name="picture" value="0"/>
+            <enum name="video" value="1"/>
+        </attr>
+
+        <attr format="enum" name="cameraAudio">
+            <enum name="off" value="0"/>
+            <enum name="on" value="1"/>
+        </attr>
+
+        <attr format="enum" name="cameraPreview">
+            <enum name="surface" value="0"/>
+            <enum name="texture" value="1"/>
+            <enum name="glSurface" value="2"/>
+        </attr>
+
+        <attr format="boolean" name="cameraPlaySounds"/>
+
+        <attr format="float" name="cameraVideoMaxSize"/>
+
+        <attr format="integer" name="cameraVideoMaxDuration"/>
+
+        <attr format="enum" name="cameraVideoCodec">
+            <enum name="deviceDefault" value="0"/>
+            <enum name="h263" value="1"/>
+            <enum name="h264" value="2"/>
+        </attr>
+
+        <attr format="boolean" name="cameraExperimental"/>
+
+    </declare-styleable></configuration></mergedItems></merger>

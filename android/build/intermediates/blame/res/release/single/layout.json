@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/mobilefront/Desktop/BrisklyApp/b-pay/node_modules/@yyyyu/react-native-barcode/android/build/intermediates/res/merged/release/layout/cameraview_gl_view.xml",
+        "source": "/Users/mobilefront/.gradle/caches/transforms-2/files-2.1/d64afd301b70fbdd9510f7bd911c5134/cameraview-2.0.0-beta04/res/layout/cameraview_gl_view.xml"
+    },
+    {
+        "merged": "/Users/mobilefront/Desktop/BrisklyApp/b-pay/node_modules/@yyyyu/react-native-barcode/android/build/intermediates/res/merged/release/layout/cameraview_layout_focus_marker.xml",
+        "source": "/Users/mobilefront/.gradle/caches/transforms-2/files-2.1/d64afd301b70fbdd9510f7bd911c5134/cameraview-2.0.0-beta04/res/layout/cameraview_layout_focus_marker.xml"
+    },
+    {
+        "merged": "/Users/mobilefront/Desktop/BrisklyApp/b-pay/node_modules/@yyyyu/react-native-barcode/android/build/intermediates/res/merged/release/layout/cameraview_texture_view.xml",
+        "source": "/Users/mobilefront/.gradle/caches/transforms-2/files-2.1/d64afd301b70fbdd9510f7bd911c5134/cameraview-2.0.0-beta04/res/layout/cameraview_texture_view.xml"
+    },
+    {
+        "merged": "/Users/mobilefront/Desktop/BrisklyApp/b-pay/node_modules/@yyyyu/react-native-barcode/android/build/intermediates/res/merged/release/layout/cameraview_surface_view.xml",
+        "source": "/Users/mobilefront/.gradle/caches/transforms-2/files-2.1/d64afd301b70fbdd9510f7bd911c5134/cameraview-2.0.0-beta04/res/layout/cameraview_surface_view.xml"
+    }
+]

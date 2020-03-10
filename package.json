@@ -1,0 +1,53 @@
+{
+  "name": "react-native-barcode-zbar",
+  "version": "1.0.0",
+  "description": "react native barcode scanner and decoder.",
+  "keywords": [
+    "react-native",
+    "qrcode",
+    "barcode",
+    "zbar"
+  ],
+  "homepage": "https://github.com/byvan/react-native-barcode-zbar",
+  "bugs": {
+    "url": "https://github.com/byvan/react-native-barcode-zbar/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "byvan",
+    "email": "byvanis@gmail.com"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/byvan/react-native-barcode-zbar.git"
+  },
+  "scripts": {
+    "test": "echo ignore",
+    "build": "tsc",
+    "lint": "tslint --fix ./src/*.ts{,x}",
+    "commit": "git-cz",
+    "semantic-release": "semantic-release"
+  },
+  "dependencies": {
+    "@types/react": "^16.8.17",
+    "@types/react-native": "^0.57.45"
+  },
+  "devDependencies": {
+    "commitizen": "^3.1.1",
+    "cz-conventional-changelog": "^2.1.0",
+    "semantic-release": "^15.13.12",
+    "tslint": "^5.16.0",
+    "typescript": "^3.4.3"
+  },
+  "peerDependencies": {
+    "react": "16.9.0",
+    "react-native": "^0.61.5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
